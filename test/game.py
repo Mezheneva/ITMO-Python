@@ -3,15 +3,11 @@ import random
 str = ""
 
 while str != "exit":
-
     maximum_number = int(input('Enter maximum number> '))
-
     computer_number = random.randint(1, maximum_number)
-
     number_of_attempts = int(input('Enter number of attempts> '))
 
     for count_of_attempts in range(0, number_of_attempts):
-
         user_number = int(input('Enter number> '))
 
         if user_number > computer_number:
